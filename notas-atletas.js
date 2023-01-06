@@ -31,9 +31,6 @@ for (let i = 0; i < atletas.length; i++) {
 
   let media = soma / notasValidas.length
 
-    console.log(`Atleta: ${atletas[i].nome}
-Notas: ${notasObtidas}
-Média: ${media}
-`)
+   console.log(`Atleta: ${atletas[i].nome} \nNotas: ${notasObtidas} \nmédia: ${media}`);
 
 }
